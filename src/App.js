@@ -3,6 +3,10 @@ import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Home from './pages/Home';
 import './App.css';
+import About from './pages/About';
+import Pricing from './pages/Pricing';
+import Docs from './pages/Docs';
+import Contact from './pages/Contact';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -12,13 +16,13 @@ function App() {
       case 'home':
         return <Home />;
       case 'about':
-        return <div className="py-20 text-center">About Page - Coming Soon</div>;
+        return <About/>;
       case 'pricing':
-        return <div className="py-20 text-center">Pricing Page - Coming Soon</div>;
+        return <Pricing />;
       case 'documentation':
-        return <div className="py-20 text-center">Documentation Page - Coming Soon</div>;
+        return <Docs/>;
       case 'contact':
-        return <div className="py-20 text-center">Contact Page - Coming Soon</div>;
+        return <Contact/>;
       default:
         return <Home />;
     }
