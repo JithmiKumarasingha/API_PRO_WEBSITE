@@ -38,27 +38,35 @@ Time Saved: Approximately 3-4 hours of development time through faster code comp
 Prerequisites
 
 Node.js (v14 or higher)
+
 npm or yarn package manager
 
 Steps to Run Locally
 
 1. Clone the repository:
+   
    git clone https://github.com/JithmiKumarasingha/API_PRO_WEBSITE.git
+   
    cd api-pro-website
 
-2. Install dependencies:
+3. Install dependencies:
+
    npm install
 
-3. Start the development server:
+4. Start the development server:
+   
    npm start
 
-4. Open your browser and navigate to:
+5. Open your browser and navigate to:
+   
    http://localhost:3000
 
 # API Integration
 The website integrates with the JSONPlaceholder API to display dynamic team member data:
 
 Endpoint: https://jsonplaceholder.typicode.com/users
+
 Usage: Fetches first 10 users and displays them as team members on the About Us page
+
 Data Displayed: Name, Email, Website for each team member
 
