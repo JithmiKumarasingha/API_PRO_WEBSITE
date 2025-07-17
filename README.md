@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Pages Included
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Home - Hero section, features, and social proof
+About Us - Mission statement and team members (fetched from API)
+Pricing - Three-tier pricing plans
+API Documentation - Developer documentation with code examples
+Contact Us - Contact form and company details
 
-## Available Scripts
+# Tech Stack
 
-In the project directory, you can run:
+Frontend Framework: React.js
+Styling: Tailwind CSS
+API Integration: JSONPlaceholder API
+Version Control: Git
+AI Development Tools: GitHub Copilot
 
-### `npm start`
+# GitHub Copilot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Component Generation: Used GitHub Copilot to accelerate the creation of React components, particularly for repetitive structures like pricing cards and feature sections
+Code Completion: Leveraged intelligent code suggestions for JavaScript logic, especially for the API integration and form handling
+CSS/Tailwind Classes: Copilot helped generate appropriate Tailwind CSS classes for responsive design and component styling
+Documentation Comments: Assisted in writing clear code comments and JSDoc documentation
+Time Saved: Approximately 3-4 hours of development time through faster code completion and reduced syntax errors
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Installation & Setup
+Prerequisites
 
-### `npm test`
+Node.js (v14 or higher)
+npm or yarn package manager
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Steps to Run Locally
 
-### `npm run build`
+1. Clone the repository:
+   git clone [your-repository-url]
+   cd api-pro-website
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies:
+   npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Start the development server:
+   npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Open your browser and navigate to:
+   http://localhost:3000
 
-### `npm run eject`
+# API Integration
+The website integrates with the JSONPlaceholder API to display dynamic team member data:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Endpoint: https://jsonplaceholder.typicode.com/users
+Usage: Fetches first 10 users and displays them as team members on the About Us page
+Data Displayed: Name, Email, Website for each team member
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
